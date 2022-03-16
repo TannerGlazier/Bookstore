@@ -2,6 +2,12 @@
 }
 
 @model BooksViewModel
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Welcome to the Bookstore</h1>
+            <p class="lead">Feel free to browse our selection of books that we have for sale.</p>
+        </div>
+    </div>
 
 @foreach (Book b in Model.Books)
 {
